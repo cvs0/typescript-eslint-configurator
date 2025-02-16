@@ -1,0 +1,39 @@
+{
+  "name": "typescript-eslint-configurator",
+  "version": "1.1.4",
+  "main": "dist/index.js",
+  "bin": {
+    "typescript-eslint-configurator": "./dist/index.js"
+  },
+  "scripts": {
+    "test": "yarn build && jest",
+    "build": "tsc",
+    "start": "ts-node src/index.ts"
+  },
+  "keywords": [
+    "eslint",
+    "configurator",
+    "cli",
+    "typescript"
+  ],
+  "author": "cvs0",
+  "license": "MIT",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/cvs0/typescript-eslint-configurator/issues"
+  },
+  "homepage": "https://github.com/cvs0/typescript-eslint-configurator#readme",
+  "description": "Interactive CLI tool for configuring ESLint rules",
+  "dependencies": {
+    "inquirer": "^12.4.2",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.7.3"
+  },
+  "devDependencies": {
+    "@types/inquirer": "^9.0.7",
+    "@types/jest": "^29.5.14",
+    "@types/node": "^22.13.4",
+    "jest": "^29.7.0",
+    "ts-jest": "^29.2.5"
+  }
+}
