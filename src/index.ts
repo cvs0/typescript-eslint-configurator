@@ -91,8 +91,12 @@ const eslintRules = [
     name: "@typescript-eslint/no-empty-object-type",
     category: "TypeScript",
     description: "Disallow the usage of the empty object type (`{}`) in TypeScript."
+  },
+  {
+    name: "react/prop-types",
+    category: "React",
+    description: "Enforce type validation for props in React components"
   }
-  
 ];
 
 function readExistingConfig() {
