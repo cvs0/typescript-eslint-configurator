@@ -87,6 +87,12 @@ const eslintRules = [
     category: "React",
     description: "Forces the React import in the current scope.",
   },
+  {
+    name: "@typescript-eslint/no-empty-object-type",
+    category: "TypeScript",
+    description: "Disallow the usage of the empty object type (`{}`) in TypeScript."
+  }
+  
 ];
 
 function readExistingConfig() {
